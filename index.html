@@ -18,10 +18,10 @@
                     <h5 class="card-title">Todo List Sayfası </h5>
                 </div>
                 <div class="card-body">
-                    <form id="todoAddForm mt-2">
+                    <form action="/" id="todoAddForm">
                         <input type="text" class="form-control mt-2" id="todoName" aria-describedby="todo" placeholder="Todo Giriniz">
                     
-                        <button id="todoAddButton" type="submit"  class="btn btn-primary mt-4 btn-sm">Todo Ekleyin</button>
+                        <button  id="todoAddButton" type="submit"  class="btn btn-primary mt-4 btn-sm">Todo Ekleyin</button>
                     </form>
                 </div>
 
@@ -33,28 +33,8 @@
                         <input id="todoSearch" type="text" class="form-control mt-3" placeholder="Todo Arayınız">
                         <hr/>
                     </form>
-
+                   
                     <ul class="list-group">
-                        <li class="list-group-item d-flex justify-content-between">Todo 1
-                            <a href="#" class="delete-item">
-                                <i class="fa fa-remove rovshan"></i>
-                            </a>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between">Todo 2
-                            <a href="#" class="delete-item">
-                                <i class="fa fa-remove"></i>
-                            </a>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between">Todo 3
-                            <a href="#" class="delete-item">
-                                <i class="fa fa-remove"></i>
-                            </a>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between">Todo 4
-                            <a href="#" class="delete-item">
-                                <i class="fa fa-remove rmdir"></i>
-                            </a>
-                        </li>
                       </ul>
 
                       <a href="#" id="todoClearButton"  class="btn btn-primary btn-sm mt-3">Tüm Todoları Temizle</a>
@@ -62,7 +42,6 @@
             </div>
         </div>
     </div>
-
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
